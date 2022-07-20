@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+
+body {
+
+margin: 0px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#header .navbar{
+
+    background-color: lavenderblush;
+    overflow:unset;
+    padding: 5px;
+    margin-bottom: 0%;
+    
+    
+}
+
+#header .navbar-nav .nav-item .nav-link{
+
+    color:rebeccapurple;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 15px;
+}
+
+#header .navbar-nav .nav-item:hover,
+#header .navbar-nav .nav-item.active{
+
+    border-top: purple solid 4px; 
+}
+
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+#header .dropdown-item{
+    color: rebeccapurple;
+    
+    overflow: unset;
+    border: none;
+    border-radius: 2px;
+    transition: all 300ms ease-in-out;
+}
+#header .dropdown-item:hover{
+    color:white;
+    background-color:rebeccapurple;
+    border-radius: 2px;
+}
+#header .dropdown-menu{
+    background-color: lavenderblush;
+    border: none;
+    
+}

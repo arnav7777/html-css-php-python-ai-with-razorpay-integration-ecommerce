@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+
+body {
+
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#header .navbar{
+
+    background-color:plum;
+    overflow:unset;
+    padding: 5px;
+    margin-bottom: 0%;
+    
+    
+}
+
+#header .navbar-nav .nav-item .nav-link{
+    font-weight: bold;
+    color:white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 15px;
+}
+
+#header .navbar-nav .nav-item:hover,
+#header .navbar-nav .nav-item.active{
+
+    border-top: purple solid 4px; 
+}
+
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+#header .dropdown-item{
+    color: white;
+    
+    overflow: unset;
+    border: none;
+    border-radius: 2px;
+    transition: all 300ms ease-in-out;
+}
+#header .dropdown-item:hover{
+    color:white;
+    background-color:rebeccapurple;
+    border-radius: 2px;
+}
+#header .dropdown-menu{
+    background-color: plum;
+    border: none;
+    
+}
+
+
+/*home css*/
+
+
+
+.home .home-banner-1{
+    
+    
+    background-color: plum;
+    
+
+}
+.home .home-banner-2{
+    
+    background-color: bisque;
+}
+
+.home .home-banner-1 .home-banner-text{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    
+    
+}
+.home .home-banner-1 .btn{
+    background-color: purple;
+    color: white;
+    
+}
+.home .home-banner-2 .home-banner-text{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    
+    
+}
+.home .home-banner-2 .btn{
+    background-color: black;
+    color: white;
+    
+}
+

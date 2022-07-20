@@ -1,0 +1,18 @@
+
+
+
+
+.card {
+    display: inline-block;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+ul.products-1 li {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+}
+
